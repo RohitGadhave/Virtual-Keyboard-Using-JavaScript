@@ -2,6 +2,7 @@
 
 
 function keyBoardInit() {
+    console.log('keyBoardInit');
     KioskBoard.init({
 
         /*!
@@ -100,6 +101,7 @@ function openKeyBoard() {
     keyBoardInit();
 }
 function keyboard() {
+    console.log('keyboard');
     KioskBoard.run('.js-kioskboard-text', {
         language: "en",
         theme: "light",
