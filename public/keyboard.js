@@ -1,28 +1,6 @@
 // Initialize KioskBoard (default/all options)
 
 
-const keysArrayOfObjects = [
-    {
-        "0": "1",
-        "1": "2",
-        "2": "3"
-    },
-    {
-        "0": "4",
-        "1": "5",
-        "2": "6"
-    },
-    {
-        "0": "7",
-        "1": "8",
-        "2": "9"
-    },
-    {
-        "0": "0",
-        "1": "."
-    }
-];
-
 function keyBoardInit() {
     KioskBoard.init({
 
@@ -120,12 +98,6 @@ function keyBoardInit() {
 
 function openKeyBoard() {
     keyBoardInit();
-
-    // KioskBoard.run('.js-kioskboard-input', {
-    //     language: "en",
-    //     theme: "light",
-    //     keysArrayOfObjects: keysArrayOfObjects
-    // });
 }
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
